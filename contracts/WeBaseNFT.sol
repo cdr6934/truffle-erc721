@@ -25,6 +25,11 @@ contract WeBaseNFT is ERC721, ERC721URIStorage, ERC721Burnable, Ownable {
         _setTokenURI(tokenId, uri);
     }
 
+    function sayHello() external pure returns (string memory) 
+    {
+        return "Hi!";  
+    }
+
     // The following functions are overrides required by Solidity.
 
     function _burn(uint256 tokenId) internal override(ERC721, ERC721URIStorage) {

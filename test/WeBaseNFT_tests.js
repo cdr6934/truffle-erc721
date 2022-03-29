@@ -1,14 +1,15 @@
 const WeBaseNFT = artifacts.require("WeBaseNFT");
 
-contract("WeBaseNFT", accounts => {
-  it("should put 10000 MetaCoin in the first account", () =>
-  WeBaseNFT.deployed()
-      .then(instance => instance.getBalance.call(accounts[0]))
-      .then(balance => {
-        assert.equal(
-          balance.valueOf(),
-          10000,
-          "10000 wasn't in the first account"
-        );
-      }));
-    });
+contract("WeBaseNFT", () => {
+    it("Has been deployed successfully", async () => {
+        const greeter = await WeBaseNFT.deployed(); 
+        assert(greeter, "Contract was not deployed")
+    })
+
+    it("Will return a hello", async () => {
+        const nft = await WeBaseNFT.deployed(); 
+        const expected = "Hi!"
+        const actual = await nft.sayHello(); 
+        assert.equal(actual, expected, "Greeting came back correct"); 
+    })
+})
