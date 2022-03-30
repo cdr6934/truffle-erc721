@@ -45,3 +45,4 @@ contract WeBaseNFT is ERC721, ERC721URIStorage, ERC721Burnable, Ownable {
         return super.tokenURI(tokenId);
     }
 }
+

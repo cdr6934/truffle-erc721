@@ -41,4 +41,10 @@ truffle compile
 truffle migrate
 ```
 
-* Write functions to test and ensure that the contract is creating NFTs. You can use the following [site](https://trufflesuite.com/docs/truffle/testing/writing-tests-in-javascript.html#using-web3) to help understand the creation of the tests. 
+* Write functions to test and ensure that the contract is creating NFTs. You can use the following [site](https://trufflesuite.com/docs/truffle/testing/writing-tests-in-javascript.html#using-web3) to help understand the creation of the tests.  These are all using the Mocha test library with; instead of using describe you will be using contract function.
+* Every intereaction is going to be asynchronous.. instead of using Promise.prototype.then, take advantage of async/await syntax .
+
+In order to use Remix and quickly have the ability to play with the contract use the following [package](https://www.npmjs.com/package/@remix-project/remixd) 
+```
+
+```
