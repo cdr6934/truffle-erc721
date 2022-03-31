@@ -618,11 +618,11 @@
 			]
 		},
 		"contracts/WeBaseNFT.sol": {
-			"keccak256": "0xf56a819e6aabc4f9e9ea53852e3f0b63e67202337722a666e8d3f1080d0f6355",
+			"keccak256": "0x92e5752d1ca69a084f05dbc71295ec7e5e0e6a5e6544c7a2fe9f13573e174978",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://7756fe3688e264e161197d4b2bd4b66f4ee159d9ecba45458953284aac58a7e9",
-				"dweb:/ipfs/QmYEBsABEASiWANFb9GV77FTEh7FZdiQc7Cq8KhQwJobuf"
+				"bzz-raw://0e5a27bbef5375083fd4925fe63fdaf49202bc04e05eb62f21114bf0bd953817",
+				"dweb:/ipfs/QmXG1TxykHPAXFgvWzX1JJhefoQ26NcH9WcAkNpCtg37Vc"
 			]
 		}
 	},
