@@ -25,6 +25,7 @@ contract WeBaseNFT is ERC721, ERC721URIStorage, ERC721Burnable, Ownable {
         _setTokenURI(tokenId, uri);
     }
 
+// just to make sure that the function is returning work 
     function sayHello() external pure returns (string memory) 
     {
         return "Hi!";  
